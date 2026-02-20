@@ -1,9 +1,12 @@
 {
-    "version": "1.2.5",
+    "version": "1.2.6",
     "download": "https://keymaster.fivem.net/",
     "changelog": {
-        "1.2.5": [
-            "JANIEL REPORTS V1.2.5",
+        "1.2.6": [
+            "Changed report behavior: reports are no longer auto-created when using /report",
+            "Reports are now saved only when the submit button is clicked",
+            "Separated UI opening logic from report creation logic",
+            "Improved permission handling for admin actions"
         ]
     }
 }
